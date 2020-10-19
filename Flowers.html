@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Green Thumb</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div>
+        <header class="container">
+            <div class="row">
+                <div class="col-12">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                      <a class="navbar-brand" href="index.html">My Green Thumb</a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="indoor.html">Indoor Plants </a>
+                          </li>
+                          <li class="nav-item active">
+                              <a class="nav-link" href="#">Flowers <span class="sr-only">(current)</span></a>
+                            </li>
+                            
+                        </ul>
+                        
+                      </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+           <section style="margin-top:20px;">
+            <div class="container">
+                <div class="row">
+                    <div class="card col-12 col-md-6 col-lg-4" style="width: 18rem;">
+                        <img src="Images/lily1.jpg" class="card-img-top" alt="Lily">
+                        <div class="card-body">
+                          <h5 class="card-title">Lily <span class="badge badge-danger">40% off</span></h5>
+                          <p class="card-text"> 40 SEK</p>
+                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#succulentModal" id="Succulent">Buy</a>
+                        </div>
+                      </div>
+                      <div class="card col-12 col-md-6 col-lg-4" style="width: 18rem;">
+                        <img src="Images/orchids2.jpg" class="card-img-top" alt="Orchids">
+                        <div class="card-body">
+                          <h5 class="card-title">Orchids</h5>
+                          <p class="card-text">99 SEK.</p>
+                          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#LpModal" id="Lp">Buy</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            
+            </section>  
+        </main>
+        <footer class="fixed-bottom">
+          <div class="container bg-light">
+            <div class="row">
+              <div class="col-12">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram-square"></i>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <p class="copyright-text"> Developed by <b>Deblina</b> Copyright © 2020 </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+    </div>
+    <div class="modal fade" id="succulentModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Lily</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Ideal for gifting purpose.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="LpModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Orchid</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Ideal for gifting purpose.
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Add to cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      $('#succulentModal').on('shown.bs.modal', function () {
+  $('#Succulent').trigger('focus')
+})
+    
+      $('#LpModal').on('shown.bs.modal', function () {
+  $('#Lp').trigger('focus')
+})
+    </script>
+</body>
+</html>
