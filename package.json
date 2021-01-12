@@ -4,7 +4,8 @@
   "description": "First project on creating a responsive e-commerce application design. Only a mock up design. Has been created using HTML, CSS, Bootstrap, font awesome library.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Deblina-create/MyPlantStore/issues"
   },
-  "homepage": "https://github.com/Deblina-create/MyPlantStore#readme"
+  "homepage": "https://deblina-create.github.io/plantstore",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
 }
