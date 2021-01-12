@@ -1,0 +1,20 @@
+{
+  "name": "MyPlantStore",
+  "version": "1.0.0",
+  "description": "First project on creating a responsive e-commerce application design. Only a mock up design. Has been created using HTML, CSS, Bootstrap, font awesome library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deblina-create/MyPlantStore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Deblina-create/MyPlantStore/issues"
+  },
+  "homepage": "https://github.com/Deblina-create/MyPlantStore#readme"
+}
